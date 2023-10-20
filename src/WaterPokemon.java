@@ -4,7 +4,7 @@ public class WaterPokemon extends Pokemons {
     private int height;
     private int level;
 
-    public WaterPokemon(String attack, int hp, int height, int level) {
+    public WaterPokemon(int attack, int hp, int height, int level) {
         super(attack, hp);
         this.height = height;
         this.level = level;

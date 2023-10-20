@@ -4,7 +4,7 @@ public class GrassPokemon extends Pokemons {
     private String food;
     private String sound;
 
-    public GrassPokemon(String attack, int hp, String food, String sound) {
+    public GrassPokemon(int attack, int hp, String food, String sound) {
         super(attack, hp);
         this.food = food;
         this.sound= sound;

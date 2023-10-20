@@ -4,7 +4,7 @@ public class ElectricPokemon extends Pokemons {
     private String accuracy;
     private String food;
 
-    public ElectricPokemon(String attack, int hp, String accuracy, String food) {
+    public ElectricPokemon(int attack, int hp, String accuracy, String food) {
         super(attack, hp);
         this.accuracy = accuracy;
         this.food= food;

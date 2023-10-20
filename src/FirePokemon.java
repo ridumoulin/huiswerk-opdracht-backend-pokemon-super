@@ -4,7 +4,7 @@ public class FirePokemon extends Pokemons {
     private int level;
     private int xp;
 
-    public FirePokemon(String attack, int hp, int level, int xp) {
+    public FirePokemon(int attack, int hp, int level, int xp) {
         super(attack, hp);
         this.level = level;
         this.xp= xp;
